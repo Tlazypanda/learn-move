@@ -21,3 +21,11 @@ Compile with `aptos move compile` check for any errors
 Run test with `aptos move test` 
 
 Publish with `aptos move publish`
+
+Balance of Account `aptos account list --query balance`
+
+Fund Account with 1 APT `aptos account fund-with-faucet`
+
+Run Function `aptos move run --function-id address::Colln::add_item` //needs to be a entry function 
+
+
